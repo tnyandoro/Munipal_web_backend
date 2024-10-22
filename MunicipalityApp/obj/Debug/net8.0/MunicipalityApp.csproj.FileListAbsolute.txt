@@ -155,3 +155,5 @@ C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\ob
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\MunicipalityApp.pdb
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\MunicipalityApp.genruntimeconfig.cache
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\ref\MunicipalityApp.dll
+C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

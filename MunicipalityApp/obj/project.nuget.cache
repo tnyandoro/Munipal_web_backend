@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ixvv6tCVXoc=",
+  "dgSpecHash": "kSWjfME/x+8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Linda.Mangena.1STCONTACT\\Desktop\\Munipal_web_backend\\MunicipalityApp\\MunicipalityApp.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,8 @@
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
+    "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.0\\pomelo.entityframeworkcore.mysql.8.0.0.nupkg.sha512",
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512",
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\serilog.aspnetcore\\8.0.3\\serilog.aspnetcore.8.0.3.nupkg.sha512",
     "C:\\Users\\Linda.Mangena.1STCONTACT\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
