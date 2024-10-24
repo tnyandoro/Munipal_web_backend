@@ -43,6 +43,8 @@ C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bi
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Serilog.dll
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Serilog.AspNetCore.dll
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
@@ -155,5 +157,3 @@ C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\ob
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\MunicipalityApp.pdb
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\MunicipalityApp.genruntimeconfig.cache
 C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\obj\Debug\net8.0\ref\MunicipalityApp.dll
-C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\Linda.Mangena.1STCONTACT\Desktop\Munipal_web_backend\MunicipalityApp\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll

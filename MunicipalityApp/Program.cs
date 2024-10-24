@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using MunicipalityApp.Data; // Ensure this is included
 using MunicipalityApp.Repositories; // Ensure this is included
@@ -23,11 +24,14 @@ builder.Services.AddCors(options =>
 
 // Add DbContext for MySQL database connection
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 21))
-    )
-); // Adjust MySQL version if necessary
+{
+    options
+        .UseMySql(
+            builder.Configuration.GetConnectionString("DefaultConnection"),
+            new MySqlServerVersion(new Version(8, 0, 21))
+        ) // Adjust MySQL version if necessary
+        .EnableSensitiveDataLogging(); // Enable detailed logging for EF Core
+});
 
 // Register the repositories
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
@@ -41,8 +45,10 @@ builder.Services.AddScoped<INewsRepository, NewsRepository>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
-// ** Add this line to register controllers **
-builder.Services.AddControllers();
+// ** Add this line to register controllers with cycle handling **
+builder
+    .Services.AddControllers()
+    .AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve); // This enables cycle handling
 
 var app = builder.Build();
 
